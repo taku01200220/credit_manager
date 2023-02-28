@@ -1,0 +1,64 @@
+name: credit_manager
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # firebase
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.5.0
+  cloud_firestore: ^4.3.2
+  firebase_auth: ^4.2.6
+  firebase_core_web: ^2.1.1
+  firebase_messaging: ^14.2.5
+
+  # riverpod
+  flutter_riverpod: ^2.0.1 
+  state_notifier: ^0.7.2+1
+  flutter_hooks: ^0.18.3
+  hooks_riverpod: ^2.2.0 
+
+  # ルーティング
+  go_router: ^6.0.0 #^3.1.1
+
+  # 画面サイズ調整
+  flutter_screenutil: ^5.6.1
+
+  # svg
+  flutter_svg: ^1.0.3
+
+  # ローカライズ
+  intl: ^0.17.0
+  flutter_localization: ^0.1.10
+
+  # datePicker
+  flutter_datetime_picker: ^1.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk:
+      flutter
+
+  # freezed
+  freezed: ^2.0.4
+  build_runner: ^2.2.0
+
+  # 静的解析
+  pedantic_mono: ^1.21.1 # 1.19.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/c_logo.png
+    - assets/icon/c_logo_grey.png
+    - assets/icon/c_logo.svg
+    - assets/icon/ic_chip.svg

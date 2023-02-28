@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "64267434300",
+    "project_id": "cregit-manager",
+    "storage_bucket": "cregit-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64267434300:android:9cb9a7a61cff0be6408639",
+        "android_client_info": {
+          "package_name": "com.example.credit_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64267434300-0b7t2ij09jr68qbj6op9e62sprgpj7b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9mfGMPbIHcgX48-d6Mya4Af_gk_9i8HQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64267434300-0b7t2ij09jr68qbj6op9e62sprgpj7b3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64267434300-89l137bav4cavndoea6la53o7eun269d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.creditManager"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64267434300:android:dc42262d8bb5b5f4408639",
+        "android_client_info": {
+          "package_name": "com.example.cregit_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64267434300-0b7t2ij09jr68qbj6op9e62sprgpj7b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9mfGMPbIHcgX48-d6Mya4Af_gk_9i8HQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64267434300-0b7t2ij09jr68qbj6op9e62sprgpj7b3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64267434300-89l137bav4cavndoea6la53o7eun269d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.creditManager"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
