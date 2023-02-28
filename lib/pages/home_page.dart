@@ -122,7 +122,6 @@ class HomePage extends HookConsumerWidget {
 
             // final token = await messaging.getToken();
             // print('🐯 FCM TOKEN: $token');
-            
             cardListNotifier.fetchCardList(cardInfoListState);
             context.go('/addEventPage');
           },
