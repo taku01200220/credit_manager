@@ -119,8 +119,10 @@ class HomePage extends HookConsumerWidget {
             //   provisional: false,
             //   sound: true,
             // );
+
             // final token = await messaging.getToken();
             // print('🐯 FCM TOKEN: $token');
+            
             cardListNotifier.fetchCardList(cardInfoListState);
             context.go('/addEventPage');
           },
